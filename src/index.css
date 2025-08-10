@@ -7,10 +7,10 @@
 	--color-dark: #0e0e0f;
 	--color-light: #f1f1f8;
 	--color-primary: #3e3ef9;
-	--color-secondary: #d0ff4f;
+	--color-accent: #d0ff4f;
 }
 
 body {
-	background-image: radial-gradient(circle, #212128 1pt, transparent 1pt);
+	background-image: radial-gradient(circle, #24242b 1pt, transparent 1pt);
 	background-size: 2rem 2rem;
 }
