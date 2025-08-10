@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+	--font-tomorrow: "Tomorrow", Verdana, sans-serif;
+	--font-jetbrains-mono: "JetBrains Mono", monospace;
+	--color-dark: #0e0e0f;
+	--color-light: #f1f1f8;
+	--color-primary: #3e3ef9;
+	--color-secondary: #d0ff4f;
+}
+
+body {
+	background-image: radial-gradient(circle, #212128 1pt, transparent 1pt);
+	background-size: 2rem 2rem;
+}
