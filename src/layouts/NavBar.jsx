@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Logo from "../assets/logo.png";
+import Button from "../components/ui/Button";
 
 const NavBar = () => {
 	return (
@@ -56,12 +57,12 @@ const NavBar = () => {
 			</ul>
 			{/* Buttons */}
 			<div>
-				<button
-					type="button"
-					className="px-4.5 py-2.5 rounded-lg bg-zinc-800 hover:bg-zinc-900 outline outline-transparent hover:outline-accent/40 active:scale-95 transition-[background-colors,outline,scale] duration-250 cursor-pointer"
+				<Button
+					hoverEffect1
+					activeEffect1
 				>
 					Resume
-				</button>
+				</Button>
 			</div>
 		</nav>
 	);
