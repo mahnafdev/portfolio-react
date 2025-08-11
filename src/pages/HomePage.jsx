@@ -1,5 +1,6 @@
 import AboutMe from "../components/home/AboutMe";
 import Hero from "../components/home/Hero";
+import Skills from "../components/home/Skills";
 
 const HomePage = () => {
 	return (
@@ -9,6 +10,7 @@ const HomePage = () => {
 			</p>
 			<Hero />
 			<AboutMe />
+			<Skills />
 		</main>
 	);
 };
