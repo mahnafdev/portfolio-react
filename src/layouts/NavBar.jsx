@@ -1,12 +1,13 @@
-import { Link } from "react-router";
+import { Link as ReactLink } from "react-router";
 import Logo from "../assets/logo.png";
 import Button from "../components/ui/Button";
+import Link from "../components/ui/Link";
 
 const NavBar = () => {
 	return (
 		<nav className="px-64 py-2 fixed top-0 left-0 right-0 flex items-center justify-between bg-dark/75 backdrop-blur-md">
 			{/* Logo */}
-			<Link to="/">
+			<ReactLink to="/">
 				<div>
 					{/* Logo Image */}
 					<img
@@ -15,44 +16,52 @@ const NavBar = () => {
 						className="size-12 hover:invert-100 transition-[filter] duration-500"
 					/>
 				</div>
-			</Link>
+			</ReactLink>
 			{/* Navigation Links */}
 			<ul className="flex items-center gap-2 text-lg">
 				{/* About Me */}
 				<li>
-					<a
+					<Link
+						anchorLink
 						href="/#about-me"
-						className="px-3 py-2 rounded-md hover:bg-zinc-800/50 active:text-accent/90 transition-colors duration-200"
+						hoverEffect1
+						activeEffect1
 					>
 						About Me
-					</a>
+					</Link>
 				</li>
 				{/* Skills */}
 				<li>
-					<a
+					<Link
+						anchorLink
 						href="/#skills"
-						className="px-3 py-2 rounded-md hover:bg-zinc-800/50 active:text-accent/90 transition-colors duration-200"
+						hoverEffect1
+						activeEffect1
 					>
 						Skills
-					</a>
+					</Link>
 				</li>
 				{/* Courses */}
 				<li>
-					<a
+					<Link
+						anchorLink
 						href="/#courses"
-						className="px-3 py-2 rounded-md hover:bg-zinc-800/50 active:text-accent/90 transition-colors duration-200"
+						hoverEffect1
+						activeEffect1
 					>
 						Courses
-					</a>
+					</Link>
 				</li>
 				{/* Projects */}
 				<li>
-					<a
+					<Link
+						anchorLink
 						href="/#projects"
-						className="px-3 py-2 rounded-md hover:bg-zinc-800/50 active:text-accent/90 transition-colors duration-200"
+						hoverEffect1
+						activeEffect1
 					>
 						Projects
-					</a>
+					</Link>
 				</li>
 			</ul>
 			{/* Buttons */}
