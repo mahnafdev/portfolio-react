@@ -3,7 +3,10 @@ import Hero from "../components/home/Hero";
 
 const HomePage = () => {
 	return (
-		<main className="px-64 py-32 space-y-32">
+		<main className="px-64 py-28 space-y-32">
+			<p className="absolute top-20 left-5 text-zinc-400 font-medium animate-pulse">
+				Howdy! 😉
+			</p>
 			<Hero />
 			<AboutMe />
 		</main>
