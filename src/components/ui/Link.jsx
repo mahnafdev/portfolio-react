@@ -4,6 +4,7 @@ const Link = ({
 	children,
 	anchorLink = false,
 	href = "/",
+	openInNewTab = false,
 	hoverEffect1,
 	hoverEffect2,
 	activeEffect1,
@@ -17,6 +18,7 @@ const Link = ({
 			} ${activeEffect1 && "active:text-accent/90"} ${
 				activeEffect2 && "active:underline active:underline-offset-3"
 			} transition-[background-color,color,text-decoration-line] duration-200`}
+			target={openInNewTab && "_blank"}
 		>
 			{children}
 		</a>
@@ -28,6 +30,7 @@ const Link = ({
 			} ${activeEffect1 && "active:text-accent/90"} ${
 				activeEffect2 && "active:underline active:underline-offset-3"
 			} transition-[background-color,color,text-decoration-line] duration-200`}
+			target={openInNewTab && "_blank"}
 		>
 			{children}
 		</ReactLink>

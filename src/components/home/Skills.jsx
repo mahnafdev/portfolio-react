@@ -148,7 +148,7 @@ const Skills = () => {
 			className="flex flex-col gap-y-4"
 		>
 			{/* Section Header */}
-			<h3 className="text-4xl font-semibold font-jetbrains-mono text-center bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent uppercase">
+			<h3 className="text-4xl font-semibold font-jetbrains-mono text-center bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent italic uppercase">
 				Skills
 			</h3>
 			{/* Frontend */}

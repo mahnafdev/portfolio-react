@@ -10,7 +10,7 @@ const AboutMe = () => {
 			{/* About Me Card/Info */}
 			<div className="space-y-2">
 				{/* Section Header */}
-				<h3 className="text-4xl font-semibold font-jetbrains-mono bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent uppercase">
+				<h3 className="text-4xl font-semibold font-jetbrains-mono bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent italic uppercase">
 					About Me
 				</h3>
 				{/* 'Personal & Professional' portion */}
