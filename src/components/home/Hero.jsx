@@ -44,7 +44,7 @@ const Hero = () => {
 							<img
 								src="https://cdn-icons-png.flaticon.com/128/3992/3992606.png"
 								alt="LinkedIn"
-								className="size-9 grayscale-75 hover:scale-120 hover:-rotate-3 active:scale-110 transition-transform duration-250"
+								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>
@@ -57,7 +57,7 @@ const Hero = () => {
 							<img
 								src="https://cdn-icons-png.flaticon.com/128/3291/3291667.png"
 								alt="GitHub"
-								className="size-9 grayscale-75 hover:scale-120 hover:-rotate-3 active:scale-110 transition-transform duration-250"
+								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>
@@ -70,7 +70,7 @@ const Hero = () => {
 							<img
 								src="https://cdn-icons-png.flaticon.com/128/733/733547.png"
 								alt="Facebook"
-								className="size-9 grayscale-75 hover:scale-120 hover:-rotate-3 active:scale-110 transition-transform duration-250"
+								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>
@@ -83,7 +83,7 @@ const Hero = () => {
 							<img
 								src="https://cdn-icons-png.flaticon.com/128/3991/3991722.png"
 								alt="YouTube"
-								className="size-9 grayscale-75 hover:scale-120 hover:-rotate-3 active:scale-110 transition-transform duration-250"
+								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>

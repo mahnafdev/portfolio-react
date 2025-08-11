@@ -48,18 +48,18 @@ const AboutMe = () => {
 			</div>
 			{/* About Me Images */}
 			<div className="grid grid-cols-2 gap-2 h-full">
-				<div className="p-[2px] bg-gradient-to-tr from-accent to-primary to-50% rounded-2xl hover:-rotate-2 hover:scale-103 transition-transform duration-400">
+				<div>
 					<img
 						src={Image1}
 						alt="Image 1"
-						className="h-full rounded-2xl object-cover"
+						className="h-full rounded-2xl border-2 border-primary object-cover hover:-rotate-2 hover:scale-103 transition-transform duration-400"
 					/>
 				</div>
-				<div className="p-[2px] bg-gradient-to-tr from-accent to-primary to-50% rounded-2xl hover:rotate-2 hover:scale-103 transition-transform duration-400">
+				<div>
 					<img
 						src={Image2}
 						alt="Image 2"
-						className="h-full rounded-2xl object-cover"
+						className="h-full rounded-2xl border-2 border-primary object-cover hover:rotate-2 hover:scale-103 transition-transform duration-400"
 					/>
 				</div>
 			</div>
