@@ -5,7 +5,7 @@ import Link from "../components/ui/Link";
 
 const NavBar = () => {
 	return (
-		<nav className="px-64 py-2 fixed top-0 left-0 right-0 flex items-center justify-between bg-dark/75 backdrop-blur-md">
+		<nav className="px-64 py-2 z-[999] fixed top-0 left-0 right-0 flex items-center justify-between bg-dark/75 backdrop-blur-md">
 			{/* Logo */}
 			<ReactLink to="/">
 				<div>
