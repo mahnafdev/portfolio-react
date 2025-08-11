@@ -13,7 +13,7 @@ const Hero = () => {
 				<span className="text-primary">Ahnaf</span>
 			</h1>
 			{/* Designation/Role with Typewriting Animation */}
-			<h3 className="text-[2.5rem] font-bold mt-1 before:content-['ㅤ'] after:content-['ㅤ'] font-jetbrains-mono">
+			<h3 className="text-[2.5rem] font-bold mt-1 text-zinc-300 before:content-['ㅤ'] after:content-['ㅤ'] font-jetbrains-mono">
 				<Typewriter
 					words={[
 						"MERN Web Developer",
