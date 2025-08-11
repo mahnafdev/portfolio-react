@@ -4,7 +4,7 @@ import Link from "../ui/Link";
 const ProjectCard = ({ project }) => {
 	const { thumbnail, title, slogan, technologies, website, githubRepo } = project;
 	return (
-		<div className="pb-4 space-y-4 bg-zinc-900 rounded-3xl">
+		<div className="pb-4 space-y-4 bg-zinc-900 border border-primary/70 rounded-3xl">
 			{/* Thumbnail */}
 			<div className="overflow-hidden rounded-t-3xl">
 				<img

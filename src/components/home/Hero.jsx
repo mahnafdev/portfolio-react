@@ -33,8 +33,8 @@ const Hero = () => {
 				className="-mt-6 rounded-full grayscale-20 brightness-120 transition-[filter] duration-200"
 			/>
 			<div className="mt-6 flex items-center gap-4">
-				{/* Social Profiles Links */}
-				<ul className="flex gap-x-2">
+				{/* Social Profiles */}
+				<ul className="w-fit mx-auto flex gap-3">
 					{/* LinkedIn */}
 					<li>
 						<a
@@ -42,9 +42,9 @@ const Hero = () => {
 							target="_blank"
 						>
 							<img
-								src="https://cdn-icons-png.flaticon.com/128/3992/3992606.png"
+								src="https://cdn-icons-png.flaticon.com/128/168/168771.png"
 								alt="LinkedIn"
-								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
+								className="size-8 grayscale-100 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>
@@ -55,9 +55,9 @@ const Hero = () => {
 							target="_blank"
 						>
 							<img
-								src="https://cdn-icons-png.flaticon.com/128/3291/3291667.png"
+								src="https://cdn-icons-png.flaticon.com/128/16509/16509810.png"
 								alt="GitHub"
-								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
+								className="size-9 invert-50 grayscale-100 hover:grayscale-0 hover:invert-100 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>
@@ -68,22 +68,9 @@ const Hero = () => {
 							target="_blank"
 						>
 							<img
-								src="https://cdn-icons-png.flaticon.com/128/733/733547.png"
+								src="https://cdn-icons-png.flaticon.com/128/168/168754.png"
 								alt="Facebook"
-								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
-							/>
-						</a>
-					</li>
-					{/* YouTube */}
-					<li>
-						<a
-							href="https://www.youtube.com/@ninjaquasar"
-							target="_blank"
-						>
-							<img
-								src="https://cdn-icons-png.flaticon.com/128/3991/3991722.png"
-								alt="YouTube"
-								className="size-9 grayscale-75 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
+								className="size-9 grayscale-100 hover:grayscale-0 hover:scale-120 hover:-rotate-3 active:scale-110 transition-[scale,rotate,filter] duration-250"
 							/>
 						</a>
 					</li>

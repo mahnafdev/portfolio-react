@@ -41,17 +41,6 @@ const NavBar = () => {
 						Skills
 					</Link>
 				</li>
-				{/* Courses */}
-				<li>
-					<Link
-						anchorLink
-						href="/#courses"
-						hoverEffect1
-						activeEffect1
-					>
-						Courses
-					</Link>
-				</li>
 				{/* Projects */}
 				<li>
 					<Link
@@ -61,6 +50,17 @@ const NavBar = () => {
 						activeEffect1
 					>
 						Projects
+					</Link>
+				</li>
+				{/* Contact */}
+				<li>
+					<Link
+						anchorLink
+						href="/#contact"
+						hoverEffect1
+						activeEffect1
+					>
+						Contact
 					</Link>
 				</li>
 			</ul>

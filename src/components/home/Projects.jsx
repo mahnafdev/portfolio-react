@@ -64,7 +64,7 @@ const Projects = () => {
 	return (
 		<section
 			id="projects"
-			className="space-y-12"
+			className="pt-32 space-y-12"
 		>
 			{/* Section Header */}
 			<h3 className="text-4xl font-semibold text-center font-jetbrains-mono bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent italic uppercase">

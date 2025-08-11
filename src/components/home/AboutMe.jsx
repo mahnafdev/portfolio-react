@@ -5,7 +5,7 @@ const AboutMe = () => {
 	return (
 		<section
 			id="about-me"
-			className="grid grid-cols-2 items-center gap-8"
+			className="pt-32 grid grid-cols-2 items-center gap-8"
 		>
 			{/* About Me Card/Info */}
 			<div className="space-y-2">
