@@ -13,8 +13,8 @@ const HomePage = () => {
 			<Hero />
 			<AboutMe />
 			<Skills />
-			{/* <Projects />
-			<Contact /> */}
+			<Projects />
+			{/* <Contact /> */}
 		</main>
 	);
 };

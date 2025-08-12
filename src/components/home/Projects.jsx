@@ -76,7 +76,7 @@ const Projects = () => {
 			{/* Projects Grid */}
 			<div
 				role="grid"
-				className="grid grid-cols-3 gap-4"
+				className="grid xl:grid-cols-3 gap-4 md:gap-6 lg:gap-4"
 			>
 				{projects?.map((project) => (
 					<ProjectCard

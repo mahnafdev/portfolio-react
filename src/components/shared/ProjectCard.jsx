@@ -5,8 +5,8 @@ const ProjectCard = ({ project }) => {
 	const { thumbnail, title, slogan, introduction, technologies, website, githubRepo } =
 		project;
 	return (
-		<div className="pb-4 space-y-4 bg-zinc-900 border border-primary/70 rounded-3xl shadow-lg shadow-zinc-900 relative">
-			<div className="rounded-t-3xl absolute top-0 left-0 w-full h-72 bg-light/10 opacity-0 hover:opacity-100 hover:backdrop-blur transition-[opacity,backdrop-filter] duration-300 grid place-items-center">
+		<div className="pb-4 space-y-4 bg-zinc-900 border border-primary/70 rounded-4xl lg:rounded-3xl shadow-lg shadow-zinc-900 relative">
+			<div className="rounded-t-4xl lg:rounded-t-3xl absolute top-0 left-0 w-full h-72 bg-light/10 opacity-0 hover:opacity-100 hover:backdrop-blur transition-[opacity,backdrop-filter] duration-300 grid place-items-center">
 				<p className="text-lg text-zinc-900 font-semibold text-center italic text-balance">
 					{slogan}
 				</p>
