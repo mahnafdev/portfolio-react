@@ -186,13 +186,13 @@ const Skills = () => {
 				</div>
 			</div>
 			{/* Backend */}
-			<div className="self-end space-y-2">
+			<div className="md:self-end space-y-2">
 				{/* Category Header */}
-				<h5 className="text-xl font-medium font-jetbrains-mono text-zinc-400 text-end">
+				<h5 className="text-xl font-medium font-jetbrains-mono text-zinc-400 md:text-end">
 					Backend
 				</h5>
 				{/* Category Skills */}
-				<div className="flex flex-wrap gap-2">
+				<div className="flex flex-wrap md:justify-end gap-2">
 					{skills?.backend?.map((skill) => (
 						<SkillBadge
 							key={skill.name}
@@ -232,9 +232,9 @@ const Skills = () => {
 				</div>
 			</div>
 			{/* Firebase */}
-			<div className="self-end space-y-2">
+			<div className="md:self-end space-y-2">
 				{/* Category Header */}
-				<h5 className="text-xl font-medium font-jetbrains-mono text-zinc-400 text-end">
+				<h5 className="text-xl font-medium font-jetbrains-mono text-zinc-400 md:text-end">
 					Firebase
 				</h5>
 				{/* Category Skills */}
