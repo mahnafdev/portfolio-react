@@ -17,6 +17,7 @@ const Projects = () => {
 			thumbnail: Project1Thumbnail,
 			title: "TourNext",
 			slogan: "Next-Level Tourism Starts Here. Explore Smarter, Travel Nicer.",
+			introduction: "A Tourism Management System",
 			technologies: [
 				ReactLogo,
 				TailwindCssLogo,
@@ -33,6 +34,7 @@ const Projects = () => {
 			thumbnail: Project2Thumbnail,
 			title: "EduSign",
 			slogan: "The Smarter Way to Solve and Learn Together",
+			introduction: "An Online Group-Study System",
 			technologies: [
 				ReactLogo,
 				TailwindCssLogo,
@@ -48,6 +50,7 @@ const Projects = () => {
 			thumbnail: Project3Thumbnail,
 			title: "Gardeneon",
 			slogan: "Your Gardening Guide, Powered by Community.",
+			introduction: "A Gardening Guide Community",
 			technologies: [
 				ReactLogo,
 				TailwindCssLogo,

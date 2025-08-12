@@ -10,6 +10,21 @@
 	--color-accent: #d0ff4f;
 }
 
+::-webkit-scrollbar {
+	width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+	margin: 2px;
+	background: var(--color-zinc-900);
+	border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: 0.5rem;
+}
+
 body {
 	background-image: radial-gradient(circle, #2b2b34 1pt, transparent 1pt);
 	background-size: 2rem 2rem;

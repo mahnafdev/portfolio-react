@@ -2,23 +2,27 @@ import Button from "../ui/Button";
 import Link from "../ui/Link";
 
 const ProjectCard = ({ project }) => {
-	const { thumbnail, title, slogan, technologies, website, githubRepo } = project;
+	const { thumbnail, title, slogan, introduction, technologies, website, githubRepo } =
+		project;
 	return (
-		<div className="pb-4 space-y-4 bg-zinc-900 border border-primary/70 rounded-3xl">
-			{/* Thumbnail */}
-			<div className="overflow-hidden rounded-t-3xl">
-				<img
-					src={thumbnail}
-					alt="Thumbnail Image"
-					className="w-full h-72 rounded-t-3xl object-cover hover:scale-110 transition-transform duration-350"
-				/>
+		<div className="pb-4 space-y-4 bg-zinc-900 border border-primary/70 rounded-3xl shadow-lg shadow-zinc-900 relative">
+			<div className="rounded-t-3xl absolute top-0 left-0 w-full h-72 bg-light/10 opacity-0 hover:opacity-100 hover:backdrop-blur transition-[opacity,backdrop-filter] duration-300 grid place-items-center">
+				<p className="text-lg text-zinc-900 font-semibold text-center italic text-balance">
+					{slogan}
+				</p>
 			</div>
+			{/* Thumbnail */}
+			<img
+				src={thumbnail}
+				alt="Thumbnail Image"
+				className="w-full h-72 rounded-t-3xl object-cover"
+			/>
 			{/* Other Info */}
 			<div className="mx-4">
 				{/* Title */}
 				<h3 className="text-3xl font-medium text-zinc-200 text-center">{title}</h3>
 				{/* Slogan */}
-				<p className="mt-2 text-center italic text-balance">{slogan}</p>
+				<p className="mt-2 text-center text-balance">{introduction}</p>
 				{/* Technologies */}
 				<div className="mt-6 flex flex-wrap justify-center gap-2">
 					{technologies.map((technology) => (

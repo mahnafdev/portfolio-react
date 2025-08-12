@@ -13,6 +13,7 @@ import PostgresLogo from "../../assets/skills/postgresql.png";
 import SupabaseLogo from "../../assets/skills/supabase.png";
 import DjangoLogo from "../../assets/skills/django.png";
 import FirebaseLogo from "../../assets/skills/firebase.png";
+import NextJsLogo from "../../assets/skills/next-js.png";
 import GitLogo from "../../assets/skills/git.png";
 import GithubLogo from "../../assets/skills/github.png";
 import NetlifyLogo from "../../assets/skills/netlify.png";
@@ -47,6 +48,11 @@ const Skills = () => {
 				name: "React",
 				borderColorClass: "border-cyan-700",
 			},
+			{
+				logo: NextJsLogo,
+				name: "Next.js",
+				borderColorClass: "border-zinc-500",
+			},
 		],
 		backend: [
 			{
@@ -58,6 +64,11 @@ const Skills = () => {
 				logo: ExpressLogo,
 				name: "Express.js",
 				borderColorClass: "border-yellow-700",
+			},
+			{
+				logo: NextJsLogo,
+				name: "Next.js",
+				borderColorClass: "border-zinc-500",
 			},
 			{
 				logo: CLogo,
