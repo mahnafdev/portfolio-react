@@ -14,7 +14,7 @@ const HomePage = () => {
 			<AboutMe />
 			<Skills />
 			<Projects />
-			{/* <Contact /> */}
+			<Contact />
 		</main>
 	);
 };

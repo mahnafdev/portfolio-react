@@ -2,7 +2,7 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="pt-32 grid grid-cols-2 gap-8"
+			className="pt-32 grid lg:grid-cols-2 gap-12 lg:gap-8"
 		>
 			{/* Contact Form */}
 			<div className="space-y-4">
