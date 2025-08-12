@@ -11,8 +11,8 @@ const HomePage = () => {
 				Howdy! 😉
 			</p>
 			<Hero />
-			{/* <AboutMe />
-			<Skills />
+			<AboutMe />
+			{/* <Skills />
 			<Projects />
 			<Contact /> */}
 		</main>

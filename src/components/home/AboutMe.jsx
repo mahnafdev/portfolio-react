@@ -5,7 +5,7 @@ const AboutMe = () => {
 	return (
 		<section
 			id="about-me"
-			className="pt-32 grid grid-cols-2 items-center gap-8"
+			className="pt-32 grid xl:grid-cols-2 items-center gap-8"
 		>
 			{/* About Me Card/Info */}
 			<div className="space-y-2">
@@ -18,7 +18,7 @@ const AboutMe = () => {
 					<h6 className="text-lg font-medium font-jetbrains-mono text-zinc-400">
 						Personal & Professional
 					</h6>
-					<p className="text-[17px] text-zinc-300 text-balance">
+					<p className="text-[17px] text-zinc-300 text-balance max-lg:text-justify">
 						My name is Muhammad Ahnaf (you already know). I'm a 13 years teenager
 						who is studying in Class 6 and developing various applications. You may
 						find me physically in Rajshahi, Bangladesh cause I live around there.
@@ -33,7 +33,7 @@ const AboutMe = () => {
 					<h6 className="text-lg font-medium font-jetbrains-mono text-zinc-400">
 						Past-to-Present
 					</h6>
-					<p className="text-[17px] text-zinc-300 text-balance">
+					<p className="text-[17px] text-zinc-300 text-balance max-lg:text-justify">
 						I started my programming journey at 2023 with some block-coding using
 						Scratch Jr, Scratch. Then I explored building short of website using
 						Wix. I just passed 2023 with block-coding and exploring. At 2024, I
@@ -47,19 +47,19 @@ const AboutMe = () => {
 				</div>
 			</div>
 			{/* About Me Images */}
-			<div className="grid grid-cols-2 gap-2 h-full">
+			<div className="grid md:grid-cols-2 gap-2 h-full">
 				<div>
 					<img
 						src={Image1}
 						alt="Image 1"
-						className="h-full rounded-2xl border-2 border-primary object-cover hover:-rotate-2 hover:scale-103 transition-transform duration-400"
+						className="md:h-full max-md:w-full h-64 rounded-2xl border-2 border-primary object-cover hover:-rotate-2 hover:scale-103 transition-transform duration-400"
 					/>
 				</div>
 				<div>
 					<img
 						src={Image2}
 						alt="Image 2"
-						className="h-full rounded-2xl border-2 border-primary object-cover hover:rotate-2 hover:scale-103 transition-transform duration-400"
+						className="hidden md:inline md:h-full rounded-2xl border-2 border-primary object-cover hover:rotate-2 hover:scale-103 transition-transform duration-400"
 					/>
 				</div>
 			</div>
