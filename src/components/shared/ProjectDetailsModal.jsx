@@ -77,7 +77,7 @@ const ProjectDetailsModal = ({ isOpen, closeModal, project }) => {
 					{/* Technologies */}
 					<div className="space-y-2">
 						<h5 className="text-xl font-medium">Technologies</h5>
-						<div className="flex gap-1">
+						<div className="flex flex-wrap gap-1">
 							{technologies.map((technology) => (
 								<SkillBadge borderColorClass="border-zinc-600">
 									<img

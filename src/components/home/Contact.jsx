@@ -1,4 +1,10 @@
+import Button from "../ui/Button";
+
 const Contact = () => {
+	// Handle Send Message
+	const handleSendMessage = (e) => {
+		e.preventDefault();
+	};
 	return (
 		<section
 			id="contact"
@@ -10,7 +16,10 @@ const Contact = () => {
 				<h3 className="text-3xl font-semibold font-jetbrains-mono bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent italic uppercase">
 					Contact Me Now
 				</h3>
-				<form className="space-y-3">
+				<form
+					className="space-y-3"
+					onSubmit={handleSendMessage}
+				>
 					{/* Row 1 */}
 					<div className="grid grid-cols-2 gap-4">
 						{/* Name */}
@@ -54,6 +63,13 @@ const Contact = () => {
 							placeholder="Please briefly describe your reason to contact"
 						/>
 					</label>
+					<Button
+						type="submit"
+						hoverEffect1
+						activeEffect2
+					>
+						Send Message
+					</Button>
 				</form>
 			</div>
 			{/* Other Contact ways */}

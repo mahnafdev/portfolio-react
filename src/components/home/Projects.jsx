@@ -76,6 +76,19 @@ const Projects = () => {
 			title: "EduSign",
 			slogan: "The Smarter Way to Solve and Learn Together",
 			introduction: "An Online Group-Study System",
+			features: [
+				"Secure token-based authentication",
+				"Active learning through assignments",
+				"Scalable assignment management",
+				"Create or submit assignments",
+				"View your assignment submission result",
+			],
+			challengesFaced: [
+				"Securing authentication system through JWT",
+				"Integrating filtering, sorting, searching assignments",
+				"Assignment marks & result managing",
+			],
+			futurePlans: ["Profile management", "Basic dashboard", "Enhance study system"],
 			technologies: [
 				{
 					logo: ReactLogo,
@@ -110,6 +123,22 @@ const Projects = () => {
 			title: "Gardeneon",
 			slogan: "Your Gardening Guide, Powered by Community.",
 			introduction: "A Gardening Guide Community",
+			features: [
+				"Gardening tips management",
+				"Active gardening community through sharing gardening tips",
+				"Gardening awareness with useful tips",
+			],
+			challengesFaced: [
+				"Displaying tips responsively across all devices",
+				"Securing routes (Private routes)",
+				"Assignment marks & result managing",
+			],
+			futurePlans: [
+				"Tips sorting & searching",
+				"Community gardeners management",
+				"Enhance garden gears",
+				"(সবগুলো আজাইরা, জীবনে আর প্রজেক্টে ঢুকবো নাকি তা জানি না আর Future Improvement 😒)",
+			],
 			technologies: [
 				{
 					logo: ReactLogo,

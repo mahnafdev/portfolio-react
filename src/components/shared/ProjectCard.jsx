@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
 				<img
 					src={thumbnail}
 					alt="Thumbnail Image"
-					className="w-full h-72 rounded-t-3xl object-cover"
+					className="w-full h-72 rounded-t-4xl lg:rounded-t-3xl object-cover"
 				/>
 				{/* Other Info */}
 				<div className="mx-4">
