@@ -1,14 +1,16 @@
 const Button = ({
 	children: content,
+	type = "button",
 	displayFlex = false,
 	hoverEffect1,
 	hoverEffect2,
 	activeEffect1,
 	activeEffect2,
+	onClick,
 }) => {
 	return (
 		<button
-			type="button"
+			type={type}
 			className={`px-3 md:px-4 py-1.5 md:py-2 text-lg ${
 				displayFlex && "flex items-center gap-2"
 			} rounded-lg bg-zinc-800 ${
@@ -19,6 +21,7 @@ const Button = ({
 			} ${
 				activeEffect2 && "active:-rotate-3"
 			} transition-[background-color,color,outline,scale,rotate] duration-200 cursor-pointer`}
+			onClick={onClick}
 		>
 			{content}
 		</button>

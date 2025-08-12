@@ -18,14 +18,55 @@ const Projects = () => {
 			title: "TourNext",
 			slogan: "Next-Level Tourism Starts Here. Explore Smarter, Travel Nicer.",
 			introduction: "A Tourism Management System",
+			features: [
+				"Secure authentication",
+				"Scalable dashboard",
+				"Role-based access control (RBAC)",
+				"Efficient tracking system",
+				"Community engagement with story sharing",
+			],
+			challengesFaced: [
+				"Password reseting feature",
+				"Scalable tour management",
+				"Fully responsive pages",
+				"Comprehensive tourism tracking flow",
+			],
+			futurePlans: [
+				"Showing charts to enhance visual representation",
+				"More flexible profile management",
+				"Cleaner UI/UX",
+				"Enhance tracking & analytics",
+				"Optimize taskflow",
+			],
 			technologies: [
-				ReactLogo,
-				TailwindCssLogo,
-				DaisyUILogo,
-				FirebaseLogo,
-				ExpressLogo,
-				MongoDbLogo,
-				VercelLogo,
+				{
+					logo: ReactLogo,
+					name: "React",
+				},
+				{
+					logo: TailwindCssLogo,
+					name: "Tailwind",
+				},
+				{
+					logo: DaisyUILogo,
+					name: "DaisyUI",
+				},
+				{
+					logo: FirebaseLogo,
+					name: "Firebase (Auth, Hosting)",
+				},
+				{
+					logo: ExpressLogo,
+					name: "Express",
+				},
+				{
+					logo: MongoDbLogo,
+					name: "MDB Atlas",
+				},
+				{
+					logo: VercelLogo,
+					name: "Vercel",
+				},
 			],
 			website: "https://tournext-ada60.web.app",
 			githubRepo: "https://github.com/mahnafdev/tournext-client",
@@ -36,12 +77,30 @@ const Projects = () => {
 			slogan: "The Smarter Way to Solve and Learn Together",
 			introduction: "An Online Group-Study System",
 			technologies: [
-				ReactLogo,
-				TailwindCssLogo,
-				FirebaseLogo,
-				ExpressLogo,
-				MongoDbLogo,
-				VercelLogo,
+				{
+					logo: ReactLogo,
+					name: "React.js",
+				},
+				{
+					logo: TailwindCssLogo,
+					name: "Tailwind",
+				},
+				{
+					logo: FirebaseLogo,
+					name: "Firebase (Auth, Hosting)",
+				},
+				{
+					logo: ExpressLogo,
+					name: "Express",
+				},
+				{
+					logo: MongoDbLogo,
+					name: "MDB Atlas",
+				},
+				{
+					logo: VercelLogo,
+					name: "Vercel",
+				},
 			],
 			website: "https://edusign-e1494.web.app",
 			githubRepo: "https://github.com/mahnafdev/edusign-client",
@@ -52,13 +111,34 @@ const Projects = () => {
 			slogan: "Your Gardening Guide, Powered by Community.",
 			introduction: "A Gardening Guide Community",
 			technologies: [
-				ReactLogo,
-				TailwindCssLogo,
-				FirebaseLogo,
-				ExpressLogo,
-				MongoDbLogo,
-				NetlifyLogo,
-				VercelLogo,
+				{
+					logo: ReactLogo,
+					name: "React.js",
+				},
+				{
+					logo: TailwindCssLogo,
+					name: "Tailwind",
+				},
+				{
+					logo: FirebaseLogo,
+					name: "Firebase (Auth, Hosting)",
+				},
+				{
+					logo: ExpressLogo,
+					name: "Express",
+				},
+				{
+					logo: MongoDbLogo,
+					name: "MDB Atlas",
+				},
+				{
+					logo: NetlifyLogo,
+					name: "Netlify",
+				},
+				{
+					logo: VercelLogo,
+					name: "Vercel",
+				},
 			],
 			website: "https://a10-gardeneon.netlify.app",
 			githubRepo: "https://github.com/mahnafdev/gardeneon-client",
@@ -67,7 +147,7 @@ const Projects = () => {
 	return (
 		<section
 			id="projects"
-			className="pt-32 space-y-12"
+			className="pt-24 lg:pt-32 space-y-12"
 		>
 			{/* Section Header */}
 			<h3 className="text-4xl font-semibold text-center font-jetbrains-mono bg-gradient-to-b from-zinc-400 via-zinc-100 to-zinc-500 bg-clip-text text-transparent italic uppercase">

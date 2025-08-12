@@ -6,7 +6,7 @@ import Skills from "../components/home/Skills";
 
 const HomePage = () => {
 	return (
-		<main className="px-4 md:px-24 xl:px-64 py-28">
+		<main className="px-4 md:px-24 2xl:px-64 py-28">
 			<p className="absolute top-18 left-3 md:top-20 md:left-5 text-zinc-400 font-medium animate-pulse">
 				Howdy! 😉
 			</p>

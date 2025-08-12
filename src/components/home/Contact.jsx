@@ -2,7 +2,7 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="pt-32 grid lg:grid-cols-2 gap-12 lg:gap-8"
+			className="pt-24 lg:pt-32 grid lg:grid-cols-2 gap-12 lg:gap-8"
 		>
 			{/* Contact Form */}
 			<div className="space-y-4">
@@ -74,7 +74,7 @@ const Contact = () => {
 					<div className="pl-3 pr-2 py-2 bg-zinc-800 border border-zinc-600 rounded-lg flex items-center gap-3">
 						<h5 className="text-xl font-medium text-zinc-200">Email</h5>
 						<p className="w-full px-4 py-2 bg-dark/90 rounded-md text-lg font-medium text-zinc-300 font-jetbrains-mono shadow-md shadow-dark/50">
-							mahnafdev@gmail.com
+							contact@mahnaf.com
 						</p>
 					</div>
 					{/* WhatsApp Number */}
