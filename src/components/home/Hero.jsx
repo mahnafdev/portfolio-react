@@ -9,11 +9,11 @@ const Hero = () => {
 			className="flex flex-col items-center justify-center text-center"
 		>
 			{/* Name */}
-			<h1 className="text-6xl font-semibold bg-gradient-to-r from-accent from-40% via-light to-primary bg-clip-text text-transparent">
+			<h1 className="text-4xl md:text-6xl font-semibold bg-gradient-to-r from-accent from-40% via-light to-primary bg-clip-text text-transparent">
 				Muhammad Ahnaf
 			</h1>
 			{/* Designation/Role with Typewriting Animation */}
-			<h3 className="text-[2.5rem] font-bold mt-1 bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent before:content-['ㅤ'] after:content-['ㅤ'] font-jetbrains-mono">
+			<h3 className="text-xl md:text-3xl lg:text-[2.5rem] font-bold text-center mt-4 lg:mt-1 bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent md:before:content-['ㅤ'] after:content-['ㅤ'] font-jetbrains-mono">
 				<Typewriter
 					words={[
 						"MERN Web Developer",
@@ -30,9 +30,9 @@ const Hero = () => {
 			<img
 				src={MyPic}
 				alt="My Picture"
-				className="-mt-6 rounded-full grayscale-20 brightness-120 transition-[filter] duration-200"
+				className="lg:-mt-6 rounded-full grayscale-20 brightness-120 transition-[filter] duration-200"
 			/>
-			<div className="mt-6 flex items-center gap-4">
+			<div className="mt-8 lg:mt-6 flex items-center gap-4">
 				{/* Social Profiles */}
 				<ul className="w-fit mx-auto flex gap-3">
 					{/* LinkedIn */}

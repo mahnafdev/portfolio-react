@@ -9,7 +9,7 @@ const Button = ({
 	return (
 		<button
 			type="button"
-			className={`px-4 py-2 text-lg ${
+			className={`px-3 md:px-4 py-1.5 md:py-2 text-lg ${
 				displayFlex && "flex items-center gap-2"
 			} rounded-lg bg-zinc-800 ${
 				hoverEffect1 &&
