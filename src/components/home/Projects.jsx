@@ -137,7 +137,6 @@ const Projects = () => {
 				"Tips sorting & searching",
 				"Community gardeners management",
 				"Enhance garden gears",
-				"(সবগুলো আজাইরা, জীবনে আর প্রজেক্টে ঢুকবো নাকি তা জানি না আর Future Improvement 😒)",
 			],
 			technologies: [
 				{

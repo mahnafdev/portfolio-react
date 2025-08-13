@@ -36,13 +36,14 @@ const AboutMe = () => {
 					<p className="text-[17px] text-zinc-300 text-balance text-justify">
 						I started my programming journey at 2023 with some block-coding using
 						Scratch Jr, Scratch. Then I explored building short of website using
-						Wix. I just passed 2023 with block-coding and exploring. At 2024, I
-						enhanced my block-coding with Scratch and then learned HTML, CSS, and
-						Bootstrap. At 2025, I dived into the core part of Web Development. I
-						learned Tailwind CSS, JavaScript (ES6), React.js, Express.js, MongoDB,
-						and Next.js. And I built various easy-to-intermediate websites in 2025.
-						Now I'm learning about Next.js advanced concepts and more optimization
-						techniques of an application.
+						Wix. At 2024, I learned basic web design with HTML, CSS, Bootstrap and
+						then I dived into some back-end game. I learned C, C++, Python, OOP
+						(with Python), various Data Structures & Algorithms, and solved hundreds
+						of problems on LeetCode, CodeForces, and HackerRank. At 2025, I learned
+						Tailwind CSS, Django (basic), Django REST Framework, JavaScript (ES6),
+						React.js, Express.js, MongoDB, and Next.js. And I built various
+						easy-to-intermediate websites in 2025. Now I'm learning about Next.js
+						advanced concepts and more optimization techniques of an application.
 					</p>
 				</div>
 			</div>
