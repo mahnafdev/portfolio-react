@@ -1,12 +1,16 @@
 import { Typewriter } from "react-simple-typewriter";
 import MyPic from "../../assets/me.png";
 import Button from "../ui/Button";
+import Background from "../../assets/backgrounds/shapes-pattern-background.png";
 
 const Hero = () => {
 	return (
 		<section
 			id="hero"
-			className="flex flex-col items-center justify-center text-center"
+			className="flex flex-col items-center justify-center text-center bg-no-repeat bg-cover bg-center"
+			style={{
+				backgroundImage: `url(${Background})`,
+			}}
 		>
 			{/* Name */}
 			<h1 className="text-4xl md:text-6xl font-semibold bg-gradient-to-r from-accent from-40% via-light to-primary bg-clip-text text-transparent">
