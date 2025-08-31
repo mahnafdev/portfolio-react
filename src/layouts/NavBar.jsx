@@ -121,14 +121,17 @@ const NavBar = () => {
 				</li>
 			</ul>
 			{/* Buttons */}
-			<div>
+			<a
+				href="https://drive.google.com/file/d/1JtW_458BxYiF0I2M_EYVYWHxNLlqBglZ/view"
+				target="_blank"
+			>
 				<Button
 					hoverEffect1
 					activeEffect1
 				>
 					Resume
 				</Button>
-			</div>
+			</a>
 		</nav>
 	);
 };

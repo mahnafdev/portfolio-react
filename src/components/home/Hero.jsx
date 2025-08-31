@@ -1,16 +1,12 @@
 import { Typewriter } from "react-simple-typewriter";
 import MyPic from "../../assets/me.png";
 import Button from "../ui/Button";
-import Background from "../../assets/backgrounds/shapes-pattern-background.png";
 
 const Hero = () => {
 	return (
 		<section
 			id="hero"
-			className="flex flex-col items-center justify-center text-center bg-no-repeat bg-cover bg-center"
-			style={{
-				backgroundImage: `url(${Background})`,
-			}}
+			className="flex flex-col items-center justify-center text-center"
 		>
 			{/* Name */}
 			<h1 className="text-4xl md:text-6xl font-semibold bg-gradient-to-r from-accent from-40% via-light to-primary bg-clip-text text-transparent">
@@ -80,12 +76,17 @@ const Hero = () => {
 					</li>
 				</ul>
 				{/* Resume button */}
-				<Button
-					hoverEffect2
-					activeEffect1
+				<a
+					href="https://drive.google.com/file/d/1JtW_458BxYiF0I2M_EYVYWHxNLlqBglZ/view"
+					target="_blank"
 				>
-					Resume
-				</Button>
+					<Button
+						hoverEffect2
+						activeEffect1
+					>
+						Resume
+					</Button>
+				</a>
 			</div>
 		</section>
 	);
