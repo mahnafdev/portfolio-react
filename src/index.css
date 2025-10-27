@@ -7,15 +7,15 @@
 	--color-dark: #0e0e0f;
 	--color-light: #f1f1f8;
 	--color-primary: #366cff;
-	--color-accent: #d0ff4f;
+	/* --color-accent: #d0ff4f; */
 }
 
 ::-webkit-scrollbar {
-	width: 0.75rem;
+	width: 0.6rem;
 }
 
 ::-webkit-scrollbar-track {
-	background: var(--color-zinc-900);
+	background: transparent;
 	border-radius: 1rem;
 }
 
@@ -26,5 +26,5 @@
 
 body {
 	background-image: radial-gradient(circle, #2b2b34 1pt, transparent 1pt);
-	background-size: 2rem 2rem;
+	background-size: 1.75rem 1.75rem;
 }

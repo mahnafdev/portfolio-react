@@ -9,7 +9,7 @@ const NavBar = () => {
 	// Mobile Menu visibility state
 	const [showMenu, setShowMenu] = useState(false);
 	return (
-		<nav className="px-4 md:px-24 xl:px-64 py-4 md:py-2 z-[999] fixed top-0 left-0 right-0 flex items-center justify-between bg-dark/75 backdrop-blur-md">
+		<nav className="px-4 md:px-24 xl:px-64 py-4 md:py-2 z-[999] fixed top-0 left-0 right-0 flex items-center justify-between bg-dark/75 backdrop-blur-md relative">
 			{/* Mobile Menu */}
 			<div
 				id="mobile-menu"
@@ -62,17 +62,21 @@ const NavBar = () => {
 					</li>
 				</ul>
 			</div>
-			{/* Logo */}
-			<ReactLink to="/">
-				<div>
+			<div>
+				{/* Logo */}
+				<ReactLink to="/">
 					{/* Logo Image */}
 					<img
 						src={Logo}
 						alt="Logo Image"
 						className="size-10 md:size-12 hover:invert-100 transition-[filter] duration-500"
 					/>
-				</div>
-			</ReactLink>
+				</ReactLink>
+				{/* Portfolio Version */}
+				<span className="absolute top-[50%] -translate-y-[50%] left-10 text-zinc-400 font-medium cursor-default">
+					v1.0
+				</span>
+			</div>
 			{/* Navigation Links */}
 			<ul className="hidden md:flex items-center gap-2 text-lg">
 				{/* About Me */}
