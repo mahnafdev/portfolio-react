@@ -9,9 +9,7 @@ const Hero = () => {
 			className="flex flex-col items-center justify-center text-center"
 		>
 			{/* Name */}
-			<h1 className="text-4xl md:text-6xl font-semibold bg-gradient-to-r to-primary bg-clip-text text-transparent">
-				Muhammad Ahnaf
-			</h1>
+			<h1 className="text-4xl md:text-6xl font-semibold text-primary">Muhammad Ahnaf</h1>
 			{/* Designation/Role with Typewriting Animation */}
 			<h3 className="text-xl md:text-3xl lg:text-[2.5rem] font-bold text-center mt-4 lg:mt-1 bg-gradient-to-r from-zinc-50 to-zinc-400 bg-clip-text text-transparent md:before:content-['ㅤ'] after:content-['ㅤ'] font-jetbrains-mono">
 				<Typewriter

@@ -74,7 +74,7 @@ const NavBar = () => {
 				</ReactLink>
 				{/* Portfolio Version */}
 				<span className="absolute top-[50%] -translate-y-[50%] left-10 text-zinc-400 font-medium cursor-default">
-					v1.0
+					v1.1
 				</span>
 			</div>
 			{/* Navigation Links */}
